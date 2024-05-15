@@ -15,10 +15,11 @@ print(otra_suma(1,2,3))
 
 
 
-
+nombre = 'Enrique'
 lista_nombre = ['Jessica', 'Paul', 'George', 'Henry', 'Adán']
 
-for nombre in lista_nombre:
-  if nombre != 'Enrique':
-    print('No hay Enrique en la lista')
-    break
+
+if nombre in lista_nombre:
+  print(f'el nombre {nombre} esta en la lista')
+else:
+  print(f'el nombre {nombre} no esta en la lista')
